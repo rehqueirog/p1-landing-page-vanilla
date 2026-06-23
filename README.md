@@ -1,9 +1,3 @@
-
----
-
-### 📄 `p1-landing-page-vanilla/README.md`
-
-```markdown
 # Portfolio Vanilla
 
 Landing page profissional construída com HTML, CSS e JavaScript puro — sem frameworks, sem bibliotecas.
