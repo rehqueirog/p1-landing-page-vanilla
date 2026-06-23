@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Desenvolvedor Full-Stack especializado em React, Next.js, TypeScript e Node.js. Unindo 8 anos de experiência em educação ao poder do código para criar aplicações web eficientes.">          
+        <meta name="author" content="Renato Queiroga">
+        <meta name="robots" content="index, follow">
+        <title>Renato Queiroga | Desenvolvedor Full Stack</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" type="image/icon" sizes="16x16" href="img/favicon.png">
+    </head>
+
+    <body>
+
+        <!-- DESKTOP NAVIGATION -->
+        <header class="nav-container" id="desktop-nav">
+            <nav class="nav-bar">
+                <a href="#home" class="nav-logo">
+                    <img src="img/favicon.png" alt="Imagem da Logomarca">
+                </a>
+                <ul class="nav-ul">
+                    <li class="nav-li"><a href="#home">Início</a></li>
+                    <li class="nav-li"><a href="#features">Recursos</a></li>
+                    <li class="nav-li"><a href="#pricing">Serviços</a></li>
+                    <li class="nav-li"><a href="#faq">FAQ</a></li>
+                    <a class="primary-cta-button" href="#features">Conheça Meu Trabalho</a>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- MOBILE NAVIGATION -->
+        <header class="nav-container" id="mobile-nav">
+            <div class="hamburger" id="hamburger">
+                <box-icon name='menu' color="#ffffff" size="md"></box-icon>
+            </div>
+            <nav class="nav-bar">
+                <ul class="nav-ul">
+                    <li class="nav-li"><a href="#home">Início</a></li>
+                    <li class="nav-li"><a href="#features">Recursos</a></li>
+                    <li class="nav-li"><a href="#pricing">Serviços</a></li>
+                    <li class="nav-li"><a href="#faq">FAQ</a></li>
+                    <li class="nav-li"><a href="#features" class="primary-cta-button">Conheça Meu Trabalho</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- HERO SECTION -->
+        <section class="hero-container" id="home">
+            <div class="hero-image">
+                <picture>
+                    <source srcset="img/img-desktop.png" media="(min-width: 768px)">
+                    <img src="img/img-mobile.png" alt="Imagem de Renato Queiroga">
+                </picture>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Soft skills de educador, hard skills de engenheiro.</h1>
+                    <p>Sou Renato Queiroga. Passei 8 anos desenvolvendo o potencial humano através de idiomas e mentoria. Hoje, construo aplicações web robustas com Next.js, Node.js e TypeScript. Transformo ideias complexas em interfaces limpas e sistemas que funcionam.</p>
+                </div>
+                <div class="hero-ctas">
+                    <a href="#features" class="primary-cta-button">Conheça Meu Trabalho</a>
+                    <a class="secondary-cta-button" href="https://wa.me/5583982033982">Converse Comigo no WhatsApp</a>
+                </div>
+            </div>
+        </section>
+
+        <main>
+
+            <!-- FEATURES GRID -->
+            <section class="features" id="features">
+                <div class="features-header">
+                    <h2>Minhas especialidades</h2>
+                    <p>Soluções completas, do conceito ao deploy</p>
+                </div>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <box-icon name='code-alt' color="#a333d8"></box-icon> 
+                        <h3>Desenvolvimento Web Full-Stack</h3>
+                        <p>Aplicações completas e performáticas criadas com React e Next.js no front-end, integradas a ecossistemas seguros e rápidos em Node.js no back-end. Código limpo, tipado com TypeScript e estilizado com a agilidade do Tailwind CSS.</p>
+                    </div>
+                    <div class="feature-card">
+                        <box-icon type='logo' name='slack' color="#a333d8"></box-icon>
+                        <h3>Arquitetura de Projeto de Vida & Sistemas</h3>
+                        <p>Ensinar Projeto de Vida me deu uma habilidade rara: planejar software olhando para o futuro. Arquiteturo a jornada do usuário e a escalabilidade do sistema — telas são consequência de um bom planejamento.</p>
+                    </div>
+                    <div class="feature-card">
+                        <box-icon name='group' color="#a333d8"></box-icon>
+                        <h3>Comunicação e Didática Global</h3>
+                        <p>Quase uma década lecionando Inglês e Espanhol me deram fluência para comunicar o complexo de forma simples. Documentações claras, trabalho em times globais e reuniões onde o "tecniquês" vira valor de negócio.</p>
+                    </div>
+                    <div class="feature-card">
+                        <box-icon name='rocket' color="#a333d8"></box-icon>
+                        <h3>Performance & SEO Otimizados</h3>
+                        <p>Sites rápidos, bem posicionados e que convertem. Aplico otimização de Core Web Vitals, performance web e SEO técnico para que cada projeto entregue resultados reais — do carregamento à primeira venda.</p>
+                    </div>
+                    <div class="feature-card">
+                        <box-icon name='palette' color="#a333d8"></box-icon>
+                        <h3>UI/UX Design & Prototipagem</h3>
+                        <p>Do conceito ao código com design centrado no usuário. Crio protótipos interativos no Figma, aplico princípios de design system e garanto que cada interface seja intuitiva, acessível e visualmente impactante antes mesmo da primeira linha de código.</p>
+                    </div>
+                    <div class="feature-card">
+                        <box-icon name='cloud' color="#a333d8"></box-icon>
+                        <h3>DevOps & Cloud Computing</h3>
+                        <p>Deploy automatizado e infraestrutura escalável na nuvem. Utilizo Docker, CI/CD pipelines e serviços AWS/Vercel para garantir que sua aplicação esteja sempre no ar, com alta disponibilidade, segurança e capacidade de crescer junto com seu negócio.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRICING TABLE -->
+            <section class="pricing" id="pricing">
+                <div class="pricing-header">
+                    <h2>Como posso trabalhar com você</h2>
+                    <p>Três caminhos para tirar sua ideia do papel</p>
+                </div>
+                <div class="pricing-table">
+                    <div class="pricing-card">
+                        <h3>Landing Page</h3>
+                        <p>Presença digital elegante e rápida.</p>
+                        <ul>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Next.js + Tailwind CSS</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>SEO e performance otimizados</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Design responsivo</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Google Analytics</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Formulário de contato</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>15 dias de suporte</li>
+                        </ul>
+                        <div class="pricing-button">
+                            <a href="https://wa.me/5583982033982" class="tertiary-cta-button">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <p class="pricing-badge">Mais Popular</p>
+                        <h3>Web App Completo</h3>
+                        <p>Sistema sob medida com banco de dados.</p>
+                        <ul>
+                            <li><box-icon name='check' color='#22c55e'></box-icon>Next.js + Node.js + TypeScript</li>
+                            <li><box-icon name='check' color='#22c55e'></box-icon>Painel administrativo</li>
+                            <li><box-icon name='check' color='#22c55e'></box-icon>Autenticação e API</li>
+                            <li><box-icon name='check' color='#22c55e'></box-icon>Dashboard e relatórios</li>
+                            <li><box-icon name='check' color='#22c55e'></box-icon>Deploy automatizado (CI/CD)</li>
+                            <li><box-icon name='check' color='#22c55e'></box-icon>30 dias de acompanhamento</li>
+                        </ul>
+                        <div class="pricing-button">
+                            <a href="https://wa.me/5583982033982" class="tertiary-cta-button">Solicitar Orçamento</a>
+                        </div>
+                    </div>
+                    <div class="pricing-card">
+                        <h3>Consultoria & Mentoria</h3>
+                        <p>Diagnóstico, arquitetura ou aulas.</p>
+                        <ul>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Code Review</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Diagnóstico de arquitetura</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Roadmap de carreira</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Sessões ao vivo</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Material exclusivo</li>
+                            <li><box-icon name='check' color='#a333d8'></box-icon>Acompanhamento contínuo</li>
+                        </ul>
+                        <div class="pricing-button">
+                            <a href="https://wa.me/5583982033982" class="tertiary-cta-button">Fale Comigo</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FAQ ACCORDION -->
+            <section class="faq" id="faq">
+                <div class="faq-container">
+                    <h2>Dúvidas Frequentes</h2>
+
+                    <div class="faq-item active">
+                        <div class="faq-icons">
+                            <box-icon class="plus" name='plus' color="#ffffff"></box-icon>
+                            <box-icon class="minus" name='minus' color="#ffffff"></box-icon>
+                        </div>
+                        <h3 class="faq-question">O que um professor entende de software?</h3>
+                        <div class="faq-answer">
+                            <p>Muita coisa. Passei 8 anos ensinando inglês e espanhol. Isso me deu clareza para explicar o complexo, empatia com o cliente e uma capacidade enorme de aprender sozinho — qualidades raras em tecnologia.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-icons">
+                            <box-icon class="plus" name='plus' color="#ffffff"></box-icon>
+                            <box-icon class="minus" name='minus' color="#ffffff"></box-icon>
+                        </div>
+                        <h3 class="faq-question">Você faz o design ou só programa?</h3>
+                        <div class="faq-answer">
+                            <p>Os dois. Se você já tem um layout no Figma, dou vida a ele com código. Se não tem, crio do zero com base nas melhores práticas de usabilidade.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-icons">
+                            <box-icon class="plus" name='plus' color="#ffffff"></box-icon>
+                            <box-icon class="minus" name='minus' color="#ffffff"></box-icon>
+                        </div>
+                        <h3 class="faq-question">Quanto tempo leva?</h3>
+                        <div class="faq-answer">
+                            <p>Uma landing page fica pronta em 3 a 7 dias. Um sistema completo leva de 2 a 8 semanas. Depois de entender seu projeto, monto um cronograma com datas claras para cada etapa.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-icons">
+                            <box-icon class="plus" name='plus' color="#ffffff"></box-icon>
+                            <box-icon class="minus" name='minus' color="#ffffff"></box-icon>
+                        </div>
+                        <h3 class="faq-question">Tem suporte depois que o sistema fica pronto?</h3>
+                        <div class="faq-answer">
+                            <p>Sim. Todo projeto tem um período de garantia com ajustes gratuitos. O código é entregue organizado e documentado para que qualquer programador consiga manter no futuro.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="faq-icons">
+                            <box-icon class="plus" name='plus' color="#ffffff"></box-icon>
+                            <box-icon class="minus" name='minus' color="#ffffff"></box-icon>
+                        </div>
+                        <h3 class="faq-question">E se der algum problema ou eu desistir?</h3>
+                        <div class="faq-answer">
+                            <p>Você só paga pelo que foi entregue. Nosso contrato é transparente. Se algo não sair como combinado, ajusto sem custo por até 30 dias.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer-container">
+            <div class="footer-container-nav">
+                <a href="#home" class="nav-logo">
+                    <img src="img/favicon.png" alt="Imagem da Logomarca">
+                </a>
+                <nav class="footer-nav">
+                    <ul class="footer-ul">
+                        <li class="nav-li"><a href="#features">Recursos</a></li>
+                        <li class="nav-li"><a href="#pricing">Serviços</a></li>
+                        <li class="nav-li"><a href="#faq">FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Renato Queiroga | Desenvolvedor Full Stack</p>
+            </div>
+        </footer>
+
+        <!-- BACK TO TOP BUTTON -->
+        <button class="toTop" title="Voltar ao topo">
+            <box-icon name='chevron-up' color="#8a05be" size="md"></box-icon>
+        </button>
+
+        <!-- SCRIPTS -->
+        <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+        <script src="js/script.js"></script>
+        
+    </body>
+</html>
