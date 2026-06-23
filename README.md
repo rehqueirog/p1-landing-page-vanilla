@@ -1,3 +1,9 @@
+
+---
+
+### 📄 `p1-landing-page-vanilla/README.md`
+
+```markdown
 # Portfolio Vanilla
 
 Landing page profissional construída com HTML, CSS e JavaScript puro — sem frameworks, sem bibliotecas.
@@ -21,7 +27,8 @@ Landing page profissional construída com HTML, CSS e JavaScript puro — sem fr
 ## Versão Stack Moderna
 
 Este projeto foi migrado para Next.js, React, TypeScript e Tailwind CSS.  
-Veja o repositório: [p1-landing-page-stack](https://github.com/rehqueirog/p1-landing-page-stack)
+Veja o repositório: [p1-landing-page-stack](https://github.com/rehqueirog/p1-landing-page-stack)  
+Demo: [p1-landing-page-stack.vercel.app](https://p1-landing-page-stack.vercel.app/)
 
 ---
 
@@ -30,4 +37,6 @@ Veja o repositório: [p1-landing-page-stack](https://github.com/rehqueirog/p1-la
 **Renato Queiroga** — Desenvolvedor Full Stack
 
 - [GitHub](https://github.com/rehqueirog)
-- [LinkedIn](https://linkedin.com/in/renatoqueiroga)
+- [LinkedIn](https://www.linkedin.com/in/renato-queiroga-024899411/)
+- [Instagram](https://www.instagram.com/renatoqueirog/)
+- [WhatsApp](https://wa.me/5583982033982)
